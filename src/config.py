@@ -2,7 +2,7 @@ import os
 
 # Training Hyperparameters
 NUM_CLASSES         = 200
-BATCH_SIZE          = 256
+BATCH_SIZE          = 512
 VAL_EVERY_N_EPOCH   = 1
 
 NUM_EPOCHS          = 40
@@ -30,7 +30,8 @@ IMAGE_STD           = [0.2302, 0.2265, 0.2262]
 
 # Network
 #MODEL_NAME          = 'resnet18'
-MODEL_NAME          = 'resnext50_32x4d'
+MODEL_NAME          = 'MyNetwork'
+#MODEL_NAME          = 'resnext50_32x4d'
 #MODEL_NAME          = 'vgg16'
 
 # Compute related
