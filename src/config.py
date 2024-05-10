@@ -5,7 +5,7 @@ NUM_CLASSES         = 200
 BATCH_SIZE          = 256
 VAL_EVERY_N_EPOCH   = 1
 
-NUM_EPOCHS          = 25
+NUM_EPOCHS          = 40
  
 #OPTIMIZER_PARAMS    = {'type': 'SGD', 'lr': 0.002, 'momentum': 0.95}
 OPTIMIZER_PARAMS    = {'type': 'Adam', 'lr': 0.001,'weight_decay': 0.0001}
@@ -29,7 +29,8 @@ IMAGE_MEAN          = [0.4802, 0.4481, 0.3975]
 IMAGE_STD           = [0.2302, 0.2265, 0.2262]
 
 # Network
-MODEL_NAME          = 'resnet18'
+#MODEL_NAME          = 'resnet18'
+MODEL_NAME          = 'resnext50_32x4d'
 #MODEL_NAME          = 'vgg16'
 
 # Compute related
